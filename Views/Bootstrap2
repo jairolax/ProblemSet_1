@@ -1,0 +1,11 @@
+ORDINARY NONPARAMETRIC BOOTSTRAP
+
+
+Call:
+boot(data = geih_fil, statistic = bootGEIH.fn, R = 1000)
+
+
+Bootstrap Statistics :
+      original        bias    std. error          ci
+t1* 13.7474765  1.911869e-06  0.01064020  13.7282497 13.7667032
+t2*  0.2421841 -2.930540e-04  0.01422167   0.2151924  0.2691759
